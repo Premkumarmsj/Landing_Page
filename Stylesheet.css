@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .Landing
+{
+    margin:10%;
+} */
+header
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 100px;
+   position: sticky;
+   top: 0;
+   /* background-color: rgb(90, 90, 207); */
+   
+}
+
+nav
+{
+    display: flex;
+    
+   /*  background-color: blue; */
+   
+    
+}
+#mb
+{
+     color:#FE5D20 ;
+     padding: 20px;
+     font-size: 17px;
+     font-weight: normal;
+     letter-spacing: .5px;
+
+    
+}
+#mb:hover
+{
+    
+    text-decoration: underline blue;
+    text-decoration-thickness: 4px ;
+    height: 5px;
+    color: black;cursor: pointer;
+    
+
+    
+}
+
+.LHlogo img
+{
+    width: 200px;
+    height: 100;
+    cursor: pointer;
+}
+.RLogo Button
+{
+    font-weight: bold;
+    background-color: #FFD8DB ;
+    font-size: large;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+#rb
+{
+    border-radius: 50px;
+    border: none;
+    color: #A389CC;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+/* #rb:hover{
+    
+    color: rgb(255, 255, 255);
+
+    
+} */
+#rb:hover{
+
+    color: white;
+    background:linear-gradient(to right,rgba(1, 1, 247, 0.637) 65%,white);
+    transition-duration: .3s;
+   
+   
+    
+}
+
+
+.Container
+
+{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    margin-top: 50px;   
+}
+
+.CL
+{   
+    
+   
+   /*  display: flex; */
+    /* position:absolute; */
+    flex-direction:column;
+    padding: 30px;
+    margin: 10px;
+    margin-left: 15%;
+  
+    
+    
+}
+.heading
+{
+     margin: 10px;
+     margin-bottom: 10px;
+     letter-spacing: -5px;
+     line-height: 1.1;
+    
+}
+li
+{
+    list-style-type: none;  
+    font-size: 70px;
+    text-align: justify;
+    font-weight: bold;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /*  text-align: center; */
+    
+    
+    
+}
+#w
+{
+    letter-spacing: normal;
+}
+
+.CR
+{
+    margin-right: 10%;
+    margin-top: 25px;
+}
+    
+.Rimg img
+{
+    max-width: 750px;
+    height: 500px;
+    margin-left: 2%;
+    
+}
+.parah
+{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+   /*  font-size: large; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: justify;
+    color: #575858;
+    
+
+}
+.LLogo Button
+{   
+    justify-content: left;
+    margin-right: 80%;
+   /*  margin-top: 15px; */
+    margin-left: 10px;  
+    font-weight: bold;
+    background-color: #FFD8DB ;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    
+   
+}
+#lb
+{
+    border-radius: 50px;
+    border: none;
+    color: #A389CC;
+    cursor: pointer;
+    font-size: 15px;
+}
+#lb:hover
+{
+    
+    border: .5px solid #e1e1f8;
+    color: white;
+    background:linear-gradient(to right,rgba(1, 1, 247, 0.637) 65%,white);
+    transition-duration: .3s;
+    
+}
+
+.sb{
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    /* border: 1px solid black; */
+   
+
+    
+}
+#ur,#dr{
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 50px;
+    height: 45px;
+    margin: 10px;
+}
+.card
+{
+    margin-left: -10px;
+    font-family: calibri;
+    margin-right: 80px; 
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+   
+}
+
+#A2,#B2,#C2,#D2
+{
+    text-align: justify;
+    /* -webkit-text-stroke-width: .1px; */
+    width: 90px;
+}
+
+#A4,#B4,#C4,#D4{
+
+    text-align: justify;
+    
+
+}
+
+#A1,#A2,#A3,#A4
+{
+  /*   padding: 10px; */
+}
+
+
+
+ #A1 img,#A3 img, #B1 img,#B3 img,#C1 img,#C3 img,#D1 img,#D3 img
+ {
+    width: 25px;
+    height: 25px; 
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 25px;
+}
+
+#A5,#B5,#C5,#D5
+{
+    /* border: 1px solid rgb(230, 227, 227); */
+  /*   padding-left: 10px; */
+    width: 20px ;
+    height: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+#A2,#A4,#B2,#B4,#C2,#C4,#D2,#D4
+{
+    color: #5c5b5b;
+}
+.card:hover
+{
+    background-color: #afa4c2;
+    background-color: rgba(165, 165, 199, 0);
+   /*  border: 1px solid; */
+}
+
+.c1,.c2,.c3,.c4
+{
+    
+    margin-top: 10px;
+}
+
+
+.c1:hover
+{
+    transition-duration: .3s;
+    transition-property: translate(100%);
+    box-shadow: 2px 2px 0px 2px #d1cfcf;
+    
+}
+.c2:hover
+{
+    transition-duration: .3s;
+    transition-property: translate(100%);
+    box-shadow: 2px 2px 0px 2px #d1cfcf;
+    
+}
+.c3:hover
+{
+    transition-duration: .3s;
+    transition-property: translate(100%);
+    box-shadow: 2px 2px 0px 2px #d1cfcf;
+    
+}
+.c4:hover
+{
+    transition-duration: .3s;
+    transition-property: translate(100%);
+    box-shadow: 2px 2px 0px 2px #d1cfcf;
+    
+}
+
+
+.c1:hover #blue
+{
+    display: inline;
+
+}
+.c2:hover #blue
+{
+    display: inline;
+
+}
+.c3:hover #blue
+{
+    display: inline;
+
+}
+.c4:hover #blue
+{
+    display: inline;
+
+}
+.c1:hover #gray
+{
+    display: none;
+}
+.c2:hover #gray
+{
+    display: none;
+}
+.c3:hover #gray
+{
+    display: none;
+}
+.c4:hover #gray
+{
+    display: none;
+}
+
+#blue
+{
+    display: none;
+}
+
+.c1:hover #A5
+{
+    background-color: rgb(0, 0, 255);
+}
+.c2:hover #B5
+{
+    background-color: rgba(216, 91, 19, 0.829);
+}
+.c3:hover #C5
+{
+    background-color: rgb(185, 53, 152);
+}
+.c4:hover #D5
+{
+    background-color: rgb(62, 62, 143);
+}
+
+.c1,.c2,.c3,.c4
+{
+    background-color: white;
+    display: flex ;
+    border: 2px solid rgba(238, 235, 235, 0.322);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:space-between; 
+    margin: 2px;
+    cursor: pointer;
+  /*   margin-top: px; */
+    padding: 6px;
+    font-weight: bolder ;
+    font-size: 14px;    
+    
+}
+
+.Cont{
+    margin: 10px;
+    position: relative;
+}
+
+
